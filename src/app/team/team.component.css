@@ -1,0 +1,58 @@
+.ourteam{
+      padding: 40px 0px 0px;
+}
+.ourteam h1{
+       font-size: 50px;
+       font-weight: bold;
+}
+.teamsetting{
+      margin-top: 40px;
+}
+
+
+@media(min-width : 768px) and (max-width : 991px){
+     
+      .ourteam h1{
+            font-size: 40px;
+            font-weight: bold;
+     }  
+     .ourteam img{
+           height: 200px;
+           width: 200px;
+     }
+}
+
+@media(min-width : 575px) and (max-width : 767px){
+      
+     
+      .ourteam h1{
+            font-size: 37px;
+            font-weight: bold;
+     }  
+     .ourteam img{
+           height: 160px;
+           width: 160px;
+     }
+}  
+@media(min-width : 480px) and (max-width : 574px){
+      
+      .ourteam h1{
+            font-size: 30px;
+            font-weight: bold;
+     }  
+     .ourteam img{
+           height: 150px;
+           width: 150px;
+     }
+} 
+
+@media(max-width:497px){
+      .ourteam h1{
+            font-size: 24px;
+            font-weight: bold;
+     }  
+     .ourteam img{
+           height: 150px;
+           width: 150px;
+     }
+}

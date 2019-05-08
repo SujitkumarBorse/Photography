@@ -1,0 +1,166 @@
+.connectClaas {
+      padding-top: 40px;
+      padding-bottom: 40px;
+}
+
+.connectClaas h2 {
+      font-weight: bold;
+      font-size: 50px;
+}
+
+.contactClass {
+      margin-top: 15px;
+      padding-top: 20px;
+}
+.contactClass h2 {
+      font-weight: bold;
+      font-size: 50px;
+      padding-bottom: 10px;
+}
+
+
+.fontclass {
+      padding-top: 40px;
+}
+
+.footerClass h5 {
+      padding-top: 11px;
+      padding-bottom: 11px;
+}
+
+p {
+      margin-top: 2px;
+      margin-bottom: 2px;
+}
+
+.social a {
+      font-size: 2.5em;
+      padding: 2rem;
+}
+
+.fa-facebook {
+      color: #3b5998;
+}
+
+.fa-twitter {
+      color: #00aced;
+}
+
+.fa-instagram {
+      color: #517fa4;
+}
+
+.fa-google-plus-g {
+      color: #dd4b39;
+}
+
+.fa-youtube {
+      color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-google-plus-g:hover,
+.fa-youtube:hover {
+      color: #d5d5d5;
+}
+
+footer {
+      background-color: #3f3f3f;
+      color: #d5d5d5;
+}
+
+hr.light {
+      border-top: 1px solid #d5d5d5;
+      width: 75%;
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+}
+
+footer.a {
+      color: #d5d5d5;
+}
+
+hr.light-100 {
+      border-top: 1px solid #d5d5d5;
+      width: 100%;
+      margin-top: .5rem;
+      margin-bottom: .5rem;
+}
+
+@media(max-width: 992px) {
+      .social a {
+            font-size: 2.5em;
+            padding: 2rem;
+      }
+      .connectClaas h2 {
+            font-weight: bold;
+            font-size: 40px;
+      }
+      .connectClaas {
+            padding-bottom: 52px;
+      }
+      .contactClass h2 {
+            font-weight: bold;
+            font-size: 40px;
+            padding-bottom: 22px;
+      }
+}
+
+@media(max-width:768px) {
+      .display-4 {
+            font-size: 200%;
+      }
+      .social a {
+            font-size: 2.5em;
+            padding: 1.2rem;
+      }
+      .connectClaas h2 {
+            font-weight: bold;
+            font-size: 37px;
+      }
+      .connectClaas {
+            padding-bottom: 0px;
+      }
+      .contactClass h2 {
+            font-weight: bold;
+            font-size: 37px;
+            padding-bottom: 0px;
+      }
+      .fontclass {
+            padding-top: 5px;
+      }
+
+}
+
+@media(max-width:576px) {
+      .display-4 {
+            font-size: 160%;
+      }
+      .social a {
+            font-size: 2em;
+            padding: .7rem;
+      }
+      .connectClaas h2 {
+            font-weight: bold;
+            font-size: 23px;
+      }
+      .connectClaas {
+            padding-bottom: 0px;
+      }
+      .contactClass h2 {
+            font-weight: bold;
+            font-size: 27px;
+            padding-bottom: 0px;
+      }
+      .fontclass {
+            padding-top: 5px;
+      }
+      .footerClass h5 {
+            padding-top: 11px;
+            padding-bottom: 11px;
+            font-size: 1.1rem;
+      }
+      
+}

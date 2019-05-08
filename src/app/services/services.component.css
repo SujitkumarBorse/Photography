@@ -1,0 +1,104 @@
+.ourservice {
+      padding: 40px 0px 60px;
+      height: 500px;
+}
+
+.ourservice h1 {
+      font-weight: bold;
+      font-size: 50px;
+}
+
+.ourservice p {
+      color: #6c757d;
+}
+
+.rowsetting {
+      margin: 50px 0px;
+}
+
+.imgsetting {
+      border-radius: 50%;
+      width: 75px;
+      height: 75px;
+}
+
+.imgsetting i {
+      padding: 13px;
+}
+
+.rowsetting p {
+      padding: 10px;
+      color: #6c757d;
+}
+
+
+@media(min-width : 575px) and (max-width : 767px){
+      
+      .ourservice h1 {
+            font-weight: bold;
+            font-size: 42px;
+      }
+      .rowsetting h3{
+            font-size: 24px;
+      }
+
+      .imgsetting {
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+      }
+      .rowsetting i{
+            font-size: 46px;
+      }
+      .imgsetting i {
+            padding: 12px;
+      }
+
+
+
+}  
+@media(min-width : 480px) and (max-width : 574px){
+      .ourservice h1 {
+            font-weight: bold;
+            font-size: 40px;
+      }
+      .rowsetting h3{
+            font-size: 21px;
+      }    
+
+      .imgsetting {
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+      }
+      .rowsetting i{
+            font-size: 40px;
+      }
+      .imgsetting i {
+            padding: 10px;
+      }
+
+} 
+
+@media(max-width:497px){
+      .ourservice h1 {
+            font-weight: bold;
+            font-size: 35px;
+      }
+      .rowsetting h3{
+            font-size: 20px;
+      }
+
+      .imgsetting {
+            border-radius: 50%;
+            width: 55px;
+            height: 55px;
+      }
+      .rowsetting i{
+            font-size: 34px;
+      }
+      .imgsetting i {
+            padding: 10px;
+      }
+      
+}
