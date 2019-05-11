@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { GalleryImage } from '../gallary/models/galleryImage.model';
+import { ImageService } from '../services/image.service';
+declare var $: any;
 
 @Component({
   selector: 'app-gallary',
@@ -7,9 +10,26 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GallaryComponent implements OnInit {
 
-  constructor() { }
+
+  galleryImage:GalleryImage[];
+
+    constructor(private _ImageService : ImageService) { }
 
   ngOnInit() {
-  }
 
+    // get image from json file
+
+    this._ImageService.getImage().subscribe(data => this.galleryImage = data);
+
+    // Jquery Image lightbox
+
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+  }
 }
+
+
+// *ngFor="let img of  galleryImage"

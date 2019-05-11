@@ -1,8 +1,5 @@
 <div class="container text-center ourgallary">
-  <h1>Gallery</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum vitae explicabo molestias beatae minus,
-    delectus aut repellendus nihil totam quas.
-  </p>
+  <!-- <h1>Gallery</h1> -->
   <div class="container rowsetting">
 
     <ul class="nav nav-tabs text-center font-weight-bold no-gutters" role="tablist">
@@ -44,508 +41,102 @@
         <br>
         <div class="row text-center text-lg-left">
 
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
+                <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100"
+                  data-toggle="lightbox">
+                  <img class="img-fluid rounded" [src]='img.image' alt="pic1">
+                </a>
+            </div>
 
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic2.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic3.jpg"  data-toggle="modal" data-target="#myModal" alt="pic3">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic2.jpg" data-toggle="modal" data-target="#myModal"  alt="pic2">
-              </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic3.jpg"  data-toggle="modal" data-target="#myModal" alt="pic3">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic3.jpg"  data-toggle="modal" data-target="#myModal" alt="pic3">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic2.jpg"  data-toggle="modal" data-target="#myModal" alt="pic2">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic3.jpg"  data-toggle="modal" data-target="#myModal" alt="pic3">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic2.jpg"  data-toggle="modal" data-target="#myModal" alt="pic2">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
         </div>
-
       </div>
     </div>
 
     <div id="Pre-Wedding" class="container tab-pane fade">
-
       <div class="container">
         <br>
         <h3 class="text-center font-weight-bold">Pre-Wedding Photos</h3>
         <br>
         <div class="row text-center text-lg-left">
 
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic3.jpg"  data-toggle="modal" data-target="#myModal" alt="pic3">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic3.jpg"  data-toggle="modal" data-target="#myModal" alt="pic3">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic2.jpg"  data-toggle="modal" data-target="#myModal" alt="pic2">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic3.jpg"  data-toggle="modal" data-target="#myModal" alt="pic3">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic2.jpg"  data-toggle="modal" data-target="#myModal" alt="pic2">
-            </a>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-            <a  class="d-block mb-4 h-100">
-              <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-            </a>
-          </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
+                <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100"
+                  data-toggle="lightbox">
+                  <img class="img-fluid rounded" [src]='img.image' alt="pic1">
+                </a>
+            </div>
+          
         </div>
-
       </div>
     </div>
 
     <div id="Birthday" class="container tab-pane fade">
       <div class="container">
-          <br>
-          <h3 class="text-center font-weight-bold">Birthday Photos</h3>
-          <br>
-          <div class="row text-center text-lg-left">
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg"  data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal"  alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal"  alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic2.jpg" data-toggle="modal" data-target="#myModal" alt="pic2">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic2.jpg" data-toggle="modal" data-target="#myModal" alt="pic2">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
+        <br>
+        <h3 class="text-center font-weight-bold">Birthday Photos</h3>
+        <br>
+        <div class="row text-center text-lg-left">
+
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
+            <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+              <img class="img-fluid rounded" [src]='img.image' alt="pic1">
+            </a>
           </div>
-  
         </div>
+
+      </div>
     </div>
 
     <div id="Event" class="container tab-pane fade">
       <div class="container">
-          <br>
-          <h3 class="text-center font-weight-bold">Event Photos</h3>
-          <br>
-          <div class="row text-center text-lg-left">
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic2.jpg" data-toggle="modal" data-target="#myModal" alt="pic2">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic2.jpg" data-toggle="modal" data-target="#myModal" alt="pic2">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
+        <br>
+        <h3 class="text-center font-weight-bold">Event Photos</h3>
+        <br>
+        <div class="row text-center text-lg-left">
+
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
+            <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+              <img class="img-fluid rounded" [src]='img.image' alt="pic1">
+            </a>
           </div>
-  
+
         </div>
+      </div>
     </div>
 
     <div id="Kids" class="container tab-pane fade">
       <div class="container">
-          <br>
-          <h3 class="text-center font-weight-bold">Kids Photos</h3>
-          <br>
-          <div class="row text-center text-lg-left">
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic2.jpg" data-toggle="modal" data-target="#myModal" alt="pic2">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic2.jpg" data-toggle="modal" data-target="#myModal" alt="pic2">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
+        <br>
+        <h3 class="text-center font-weight-bold">Kids Photos</h3>
+        <br>
+        <div class="row text-center text-lg-left">
+
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
+            <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+              <img class="img-fluid rounded" [src]='img.image' alt="pic1">
+            </a>
           </div>
-  
+
         </div>
+      </div>
     </div>
 
     <div id="Personal" class="container tab-pane fade">
       <div class="container">
-          <br>
-          <h3 class="text-center font-weight-bold">Personal Photos</h3>
-          <br>
-          <div class="row text-center text-lg-left">
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic2.jpg" data-toggle="modal" data-target="#myModal" alt="pic2">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic3.jpg" data-toggle="modal" data-target="#myModal" alt="pic3">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic2.jpg" data-toggle="modal" data-target="#myModal" alt="pic2">
-              </a>
-            </div>
-  
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12">
-              <a  class="d-block mb-4 h-100">
-                <img class="img-fluid rounded" src="../../assets/img/pic1.jpg" data-toggle="modal" data-target="#myModal" alt="pic1">
-              </a>
-            </div>
-          </div>
-  
-        </div>
-    </div>
+        <br>
+        <h3 class="text-center font-weight-bold">Personal Photos</h3>
+        <br>
+        <div class="row text-center text-lg-left">
 
-<!-- image modal -->
-<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-          <div class="modal-body">
-              <img src="../../assets/img/pic1.jpg" class="img-fluid">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
+            <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+              <img class="img-fluid rounded" [src]='img.image' alt="pic1">
+            </a>
           </div>
+
+        </div>
       </div>
     </div>
-  </div>
 
   </div>
 

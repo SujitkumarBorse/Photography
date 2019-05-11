@@ -1,5 +1,5 @@
 .ourgallary {
-      padding: 40px 0px 60px;
+      padding-top: 62px;
 }
 
 .ourgallary h1 {
@@ -10,21 +10,29 @@
 .ourgallary p {
       color: #6c757d;
 }
+.img-fluid{
+      transition: transform .2s; 
+}
 
+.img-fluid:hover {
+      transform: scale(1.2); 
+    }
+/* 
 .rowsetting {
       margin: 15px 0px;
-}
+} */
 .rowsetting h3{
       font-size: 28px;
 }
 
-.nav-tabs {
+/* .nav-tabs {
       padding: 20px;
-}
+} */
 
 /* .modal-lg {
       max-width: 78%;
   } */
+
 
 @media(min-width: 575px) and (max-width: 767px) {
       .ourgallary h1 {
