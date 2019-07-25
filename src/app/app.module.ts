@@ -17,6 +17,10 @@ import { LoginComponent } from './login/login.component';
 import { UploadImageComponent } from './upload-image/upload-image.component';
 import { ImageService } from './services/image.service';
 
+// import { AngularFireModule } from '@angular/fire';
+// import { AngularFireDatabaseModule } from '@angular/fire/database';
+// import { environment } from '../environments/environment';
+
 const appRoutes: Routes = [
   { path: 'Home', component: HomeComponent },
   { path: 'Contact', component: ContactComponent },
@@ -49,6 +53,8 @@ const appRoutes: Routes = [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
     HttpClientModule
+    // AngularFireModule.initializeApp(environment.firebaseConfig),
+    // AngularFireDatabaseModule
   ],
   providers: [
    ImageService,

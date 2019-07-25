@@ -29,7 +29,7 @@ module.exports = [[module.i, ".ekko-lightbox{display:flex!important;align-items:
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nbody{\n      margin: 0;\n      padding: 0;\n}\n/* @media(min-width : 992px){\n      \n}\n\n@media(min-width : 768px) and (max-width : 991px){\n      \n}\n\n@media(min-width : 575px) and (max-width : 767px){\n      \n\n}  \n@media(min-width : 480px) and (max-width : 574px){\n      \n} \n\n@media(max-width:497px){\n      \n} */\n    \n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RTtBQUM5RTtNQUNNLFNBQVM7TUFDVCxVQUFVO0FBQ2hCO0FBRUE7Ozs7Ozs7Ozs7Ozs7Ozs7OztHQWtCRyIsImZpbGUiOiJzcmMvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbmJvZHl7XG4gICAgICBtYXJnaW46IDA7XG4gICAgICBwYWRkaW5nOiAwO1xufVxuXG4vKiBAbWVkaWEobWluLXdpZHRoIDogOTkycHgpe1xuICAgICAgXG59XG5cbkBtZWRpYShtaW4td2lkdGggOiA3NjhweCkgYW5kIChtYXgtd2lkdGggOiA5OTFweCl7XG4gICAgICBcbn1cblxuQG1lZGlhKG1pbi13aWR0aCA6IDU3NXB4KSBhbmQgKG1heC13aWR0aCA6IDc2N3B4KXtcbiAgICAgIFxuXG59ICBcbkBtZWRpYShtaW4td2lkdGggOiA0ODBweCkgYW5kIChtYXgtd2lkdGggOiA1NzRweCl7XG4gICAgICBcbn0gXG5cbkBtZWRpYShtYXgtd2lkdGg6NDk3cHgpe1xuICAgICAgXG59ICovXG4gICAgIl19 */", '', '']]
+module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\r\nbody{\r\n      margin: 0;\r\n      padding: 0;\r\n}\r\n/* @media(min-width : 992px){\r\n      \r\n}\r\n\r\n@media(min-width : 768px) and (max-width : 991px){\r\n      \r\n}\r\n\r\n@media(min-width : 575px) and (max-width : 767px){\r\n      \r\n\r\n}  \r\n@media(min-width : 480px) and (max-width : 574px){\r\n      \r\n} \r\n\r\n@media(max-width:497px){\r\n      \r\n} */\r\n    \r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RTtBQUM5RTtNQUNNLFNBQVM7TUFDVCxVQUFVO0FBQ2hCO0FBRUE7Ozs7Ozs7Ozs7Ozs7Ozs7OztHQWtCRyIsImZpbGUiOiJzcmMvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cclxuYm9keXtcclxuICAgICAgbWFyZ2luOiAwO1xyXG4gICAgICBwYWRkaW5nOiAwO1xyXG59XHJcblxyXG4vKiBAbWVkaWEobWluLXdpZHRoIDogOTkycHgpe1xyXG4gICAgICBcclxufVxyXG5cclxuQG1lZGlhKG1pbi13aWR0aCA6IDc2OHB4KSBhbmQgKG1heC13aWR0aCA6IDk5MXB4KXtcclxuICAgICAgXHJcbn1cclxuXHJcbkBtZWRpYShtaW4td2lkdGggOiA1NzVweCkgYW5kIChtYXgtd2lkdGggOiA3NjdweCl7XHJcbiAgICAgIFxyXG5cclxufSAgXHJcbkBtZWRpYShtaW4td2lkdGggOiA0ODBweCkgYW5kIChtYXgtd2lkdGggOiA1NzRweCl7XHJcbiAgICAgIFxyXG59IFxyXG5cclxuQG1lZGlhKG1heC13aWR0aDo0OTdweCl7XHJcbiAgICAgIFxyXG59ICovXHJcbiAgICAiXX0= */", '', '']]
 
 /***/ }),
 
@@ -639,9 +639,9 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/somnath/Photography/node_modules/bootstrap/dist/css/bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
-__webpack_require__(/*! /home/somnath/Photography/node_modules/ekko-lightbox/dist/ekko-lightbox.css */"./node_modules/ekko-lightbox/dist/ekko-lightbox.css");
-module.exports = __webpack_require__(/*! /home/somnath/Photography/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! C:\Users\Amol\Desktop\Photography\node_modules\bootstrap\dist\css\bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+__webpack_require__(/*! C:\Users\Amol\Desktop\Photography\node_modules\ekko-lightbox\dist\ekko-lightbox.css */"./node_modules/ekko-lightbox/dist/ekko-lightbox.css");
+module.exports = __webpack_require__(/*! C:\Users\Amol\Desktop\Photography\src\styles.css */"./src/styles.css");
 
 
 /***/ })

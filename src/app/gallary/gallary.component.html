@@ -17,10 +17,6 @@
       </li>
 
       <li class="nav-item col-lg-2 col-md-2 col-sm-4 col-6">
-        <a class="nav-link" data-toggle="tab" href="#Event">Event</a>
-      </li>
-
-      <li class="nav-item col-lg-2 col-md-2 col-sm-4 col-6">
         <a class="nav-link" data-toggle="tab" href="#Kids">Kids</a>
       </li>
 
@@ -28,23 +24,27 @@
         <a class="nav-link" data-toggle="tab" href="#Personal">Personal</a>
       </li>
 
+      <li class="nav-item col-lg-2 col-md-2 col-sm-4 col-6">
+        <a class="nav-link" data-toggle="tab" href="#Other">Other</a>
+      </li>
+
     </ul>
   </div>
 
   <!-- Tab panes -->
-  <div class="tab-content rowsetting">
+  <div class="tab-content rowsetting animated bounceInUp slower">
 
     <div id="Wedding" class="container tab-pane active">
       <div class="container">
         <br>
-        <h3 class="text-center font-weight-bold">Wedding Photos</h3>
+        <h3 class="text-center font-weight-bold animated bounceInDown delay-1s slow">Wedding Photos</h3>
         <br>
         <div class="row text-center text-lg-left">
 
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  weddingGalleryImage">
                 <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100"
                   data-toggle="lightbox">
-                  <img class="img-fluid rounded" [src]='img.image' alt="pic1">
+                  <img class="img-fluid rounded" [src]='img.image' alt="pic">
                 </a>
             </div>
 
@@ -55,14 +55,14 @@
     <div id="Pre-Wedding" class="container tab-pane fade">
       <div class="container">
         <br>
-        <h3 class="text-center font-weight-bold">Pre-Wedding Photos</h3>
+        <h3 class="text-center font-weight-bold animated bounceInDown slow">Pre-Wedding Photos</h3>
         <br>
         <div class="row text-center text-lg-left">
 
-            <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
+            <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  preWeddingGalleryImage">
                 <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100"
                   data-toggle="lightbox">
-                  <img class="img-fluid rounded" [src]='img.image' alt="pic1">
+                  <img class="img-fluid rounded" [src]='img.image' alt="pic">
                 </a>
             </div>
           
@@ -73,47 +73,30 @@
     <div id="Birthday" class="container tab-pane fade">
       <div class="container">
         <br>
-        <h3 class="text-center font-weight-bold">Birthday Photos</h3>
+        <h3 class="text-center font-weight-bold animated bounceInDown slow">Birthday Photos</h3>
         <br>
         <div class="row text-center text-lg-left">
 
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  birthdayGalleryImage">
             <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
-              <img class="img-fluid rounded" [src]='img.image' alt="pic1">
+              <img class="img-fluid rounded" [src]='img.image' alt="pic">
             </a>
           </div>
         </div>
 
-      </div>
-    </div>
-
-    <div id="Event" class="container tab-pane fade">
-      <div class="container">
-        <br>
-        <h3 class="text-center font-weight-bold">Event Photos</h3>
-        <br>
-        <div class="row text-center text-lg-left">
-
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
-            <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
-              <img class="img-fluid rounded" [src]='img.image' alt="pic1">
-            </a>
-          </div>
-
-        </div>
       </div>
     </div>
 
     <div id="Kids" class="container tab-pane fade">
       <div class="container">
         <br>
-        <h3 class="text-center font-weight-bold">Kids Photos</h3>
+        <h3 class="text-center font-weight-bold animated bounceInDown slow">Kids Photos</h3>
         <br>
         <div class="row text-center text-lg-left">
 
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  kidsGalleryImage">
             <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
-              <img class="img-fluid rounded" [src]='img.image' alt="pic1">
+              <img class="img-fluid rounded" [src]='img.image' alt="pic">
             </a>
           </div>
 
@@ -124,13 +107,30 @@
     <div id="Personal" class="container tab-pane fade">
       <div class="container">
         <br>
-        <h3 class="text-center font-weight-bold">Personal Photos</h3>
+        <h3 class="text-center font-weight-bold animated bounceInDown slow">Personal Photos</h3>
         <br>
         <div class="row text-center text-lg-left">
 
-          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  galleryImage">
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  personalGalleryImage">
             <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
-              <img class="img-fluid rounded" [src]='img.image' alt="pic1">
+              <img class="img-fluid rounded" [src]='img.image' alt="pic">
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="Other" class="container tab-pane fade">
+      <div class="container">
+        <br>
+        <h3 class="text-center font-weight-bold animated bounceInDown slow">Other Photos</h3>
+        <br>
+        <div class="row text-center text-lg-left">
+
+          <div class="col-lg-3 col-md-4 col-sm-4 col-12" *ngFor="let img of  otherGalleryImage">
+            <a [href]='img.image' data-gallery="gallery" class="d-block mb-4 h-100" data-toggle="lightbox">
+              <img class="img-fluid rounded" [src]='img.image' alt="pic">
             </a>
           </div>
 

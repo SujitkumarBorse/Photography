@@ -1,6 +1,6 @@
 .ourservice {
-      padding: 40px 0px 60px;
-      height: 500px;
+      padding: 0;
+      /* height: 500px; */
 }
 
 .ourservice h1 {
@@ -13,7 +13,7 @@
 }
 
 .rowsetting {
-      margin: 50px 0px;
+      margin: 27px 0px;
 }
 
 .imgsetting {

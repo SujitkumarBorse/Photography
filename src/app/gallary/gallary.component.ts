@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { GalleryImage } from '../gallary/models/galleryImage.model';
+import { WeddingGalleryImage,PreWeddingGalleryImage,BirthdayGalleryImage,
+         KidsGalleryImage,PersonalGalleryImage,OtherGalleryImage 
+       } from '../gallary/models/galleryImage.model';
 import { ImageService } from '../services/image.service';
 declare var $: any;
 
@@ -11,7 +13,12 @@ declare var $: any;
 export class GallaryComponent implements OnInit {
 
 
-  galleryImage:GalleryImage[];
+  weddingGalleryImage : WeddingGalleryImage[];
+  preWeddingGalleryImage : PreWeddingGalleryImage[];
+  birthdayGalleryImage : BirthdayGalleryImage[];
+  kidsGalleryImage : KidsGalleryImage[];
+  personalGalleryImage : PersonalGalleryImage[];
+  otherGalleryImage : OtherGalleryImage[];
 
     constructor(private _ImageService : ImageService) { }
 
@@ -19,7 +26,12 @@ export class GallaryComponent implements OnInit {
 
     // get image from json file
 
-    this._ImageService.getImage().subscribe(data => this.galleryImage = data);
+    this._ImageService.getWeddingImages().subscribe(data => this.weddingGalleryImage = data);
+    this._ImageService.getPreWeddingImages().subscribe(data => this.preWeddingGalleryImage = data);
+    this._ImageService.getBirthdayImages().subscribe(data => this.birthdayGalleryImage = data);
+    this._ImageService.getKidsImages().subscribe(data => this.kidsGalleryImage = data);
+    this._ImageService.getPersonalImages().subscribe(data => this.personalGalleryImage = data);
+    this._ImageService.getOtherImages().subscribe(data => this.otherGalleryImage = data);
 
     // Jquery Image lightbox
 
